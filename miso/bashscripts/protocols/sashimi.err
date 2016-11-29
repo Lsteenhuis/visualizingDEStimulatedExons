@@ -1,0 +1,751 @@
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    Traceback (most recent call last):
+plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+    plot_title=plot_title)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError:   File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    main()
+      File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+      File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+      File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+      File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOErrorIOError: : file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam` not foundfile `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam` not found
+
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 683, in plot_density_from_file
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/Sashimi.py", line 41, in __init__
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_settings.py", line 98, in parse_plot_settings
+    option))
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 49, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 37, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "<unknown>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 683, in plot_density_from_file
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/Sashimi.py", line 41, in __init__
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_settings.py", line 98, in parse_plot_settings
+    option))
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 49, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 37, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "<unknown>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 683, in plot_density_from_file
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/Sashimi.py", line 41, in __init__
+    no_posteriors=no_posteriors)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_settings.py", line 98, in parse_plot_settings
+    option))
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 49, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "/apps/software/Python/2.7.9-foss-2015b/lib/python2.7/ast.py", line 37, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "<unknown>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam` not found
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+Traceback (most recent call last):
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 283, in <module>
+    junction_log_base=junction_log_base)
+      File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+main()
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 279, in main
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/sashimi_plot.py", line 154, in plot_event
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam` not found
+    plot_label=plot_label)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 698, in plot_density_from_file
+    plot_title=plot_title)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 260, in plot_density
+    junction_log_base=junction_log_base)
+  File "/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/sashimi_plot/plot_utils/plot_gene.py", line 48, in plot_density_single
+    bamfile = pysam.Samfile(bam_filename, 'rb')
+  File "pysam/calignmentfile.pyx", line 333, in pysam.calignmentfile.AlignmentFile.__cinit__ (pysam/calignmentfile.c:4808)
+  File "pysam/calignmentfile.pyx", line 533, in pysam.calignmentfile.AlignmentFile._open (pysam/calignmentfile.c:7027)
+IOError: file `/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam` not found

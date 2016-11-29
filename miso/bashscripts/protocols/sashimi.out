@@ -1,0 +1,2657 @@
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 20 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi
+  - Looking for chromosome 20 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample F_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 20 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi
+  - Looking for chromosome 20 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample C_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 20:55967710:55967833:+@20:55968335:55968389:+@20:55982599:55984386:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample F_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample C_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:153281483:153281548:-@X:153279493:153279729:-@X:153278494:153278884:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample F_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample C_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 9:152034:152078:-@9:146102:146158:-@9:134979:135030:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample G_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample H_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 18:47018628:47018834:-@18:47018106:47018203:-@18:47017902:47017954:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample G_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample F_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:30742218:30742298:+@X:30745583:30745669:+@X:30746849:30749577:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample G_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample F_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:102940099:102940188:-@X:102939609:102939657:-@X:102933427:102933528:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Mycobacterium_tuberculosis
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample F_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample G_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample H_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:23571408:23571656:-@7:23561973:23562051:-@7:23561326:23561459:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 14:94856794:94857029:-@14:94854897:94855000:-@14:94848929:94849578:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: C_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample G_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:70330354:70330538:-@X:70330006:70330145:-@X:70329078:70329240:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:70503042:70503571:+@X:70504247:70504303:+@X:70510479:70510641:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: C_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 8:42195973:42196203:+@8:42196530:42196587:+@8:42202471:42202537:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: C_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample H_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample G_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample D_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 8:41909419:41909505:-@8:41907094:41907225:-@8:41905896:41906820:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: H_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample F_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample D_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:23571408:23571656:-@7:23561973:23562051:-@7:23561326:23561459:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample F_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample D_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:102016659:102016769:+@7:102036424:102036984:+@7:102038067:102038145:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample G_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Candida_albicans
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample F_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 18:47018628:47018834:-@18:47018106:47018203:-@18:47017902:47017954:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Aspergillus_fumigatus
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Aspergillus_fumigatus not a directory.
+Error: Could not find MISO output files for sample H_Aspergillus_fumigatus (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Aspergillus_fumigatus and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Aspergillus_fumigatus
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Aspergillus_fumigatus not a directory.
+Error: Could not find MISO output files for sample G_Aspergillus_fumigatus (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Aspergillus_fumigatus and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:30742218:30742298:+@X:30745583:30745669:+@X:30746849:30749577:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: H_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Aspergillus_fumigatus
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Aspergillus_fumigatus not a directory.
+Error: Could not find MISO output files for sample F_Aspergillus_fumigatus (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Aspergillus_fumigatus and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Aspergillus_fumigatus
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Aspergillus_fumigatus not a directory.
+Error: Could not find MISO output files for sample A_Aspergillus_fumigatus (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Aspergillus_fumigatus and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Aspergillus_fumigatus
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Aspergillus_fumigatus not a directory.
+Error: Could not find MISO output files for sample C_Aspergillus_fumigatus (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Aspergillus_fumigatus and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 18:47018628:47018834:-@18:47018106:47018203:-@18:47017902:47017954:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample D_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample E_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 9:70883850:70883894:+@9:70884516:70884638:+@9:70889798:70889854:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 5 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi
+  - Looking for chromosome 5 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample D_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 5 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi
+  - Looking for chromosome 5 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample E_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 5:180242414:180242541:-@5:180235648:180236076:-@5:180217541:180220097:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample F_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample H_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample A_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample D_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample B_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi not a directory.
+Error: Could not find MISO output files for sample E_Borrelia_burgdorferi (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Borrelia_burgdorferi and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 8:41909419:41909505:-@8:41907138:41907225:-@8:41905896:41906820:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample C_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:99971667:99972056:+@7:99987511:99987729:+@7:99995502:99995535:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample C_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:102940099:102940188:-@X:102939609:102939657:-@X:102933427:102933528:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample A_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample H_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 19:49604647:49604728:+@19:49605371:49606844:+@19:49607891:49607992:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample D_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample C_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample G_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample E_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample A_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa not a directory.
+Error: Could not find MISO output files for sample F_Pseudomonas_aeruginosa (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Pseudomonas_aeruginosa and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:99971667:99972056:+@7:99987511:99987729:+@7:99995502:99995535:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample D_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample H_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:9608313:9608400:+@X:9621585:9621729:+@X:9622255:9622362:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample D_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample H_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 18:47018628:47018834:-@18:47018106:47018203:-@18:47017902:47017954:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: D_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/D_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample G_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Mycobacterium_tuberculosis
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample C_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Mycobacterium_tuberculosis
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Mycobacterium_tuberculosis not a directory.
+Error: Could not find MISO output files for sample E_Mycobacterium_tuberculosis (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Mycobacterium_tuberculosis and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 14:73749067:73749213:-@14:73745989:73746132:-@14:73741918:73744001:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome 8 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 8:144679518:144679845:-@8:144676063:144676241:-@8:144668899:144669019:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: C_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample B_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:77154935:77155090:+@X:77157241:77157364:+@X:77158140:77158264:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: B_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample B_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:100860985:100861498:+@7:100861600:100865077:+@7:100865885:100866055:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: B_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample B_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample G_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample C_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample A_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample F_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae not a directory.
+Error: Could not find MISO output files for sample D_Rhizopus_oryzae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Rhizopus_oryzae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:48758467:48758578:+@X:48758796:48758882:+@X:48759207:48759319:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: B_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/B_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample C_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample D_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:100473194:100473333:+@7:100478317:100478390:+@7:100478906:100479034:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: C_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/C_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample H_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample A_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample D_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample B_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae
+  - Looking for chromosome X directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample E_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: X:102940099:102940188:-@X:102939609:102939657:-@X:102933427:102933528:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: H_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample H_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample A_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample D_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample B_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI not a directory.
+Error: Could not find MISO output files for sample E_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae
+  - Looking for chromosome 19 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample E_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/E_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 19:14883154:14883309:-@19:14877790:14877921:-@19:14876470:14876616:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: H_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/H_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample G_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI not a directory.
+Error: Could not find MISO output files for sample C_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample C_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/C_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae not a directory.
+Error: Could not find MISO output files for sample A_Streptococcus_pneumoniae (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Streptococcus_pneumoniae and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:99971667:99972056:+@7:99987511:99987729:+@7:99995502:99995535:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample G_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample D_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:91874741:91874909:-@7:91874216:91874485:-@7:91871348:91871451:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample G_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample D_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 9:69245941:69245978:-@9:69245076:69245163:-@9:69240013:69240059:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: G_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/G_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI not a directory.
+Error: Could not find MISO output files for sample F_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample F_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/F_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_IL-1alpha
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample A_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_IL-1alpha
+  - Looking for chromosome 18 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_IL-1alpha not a directory.
+Error: Could not find MISO output files for sample B_IL-1alpha (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_IL-1alpha and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 18:47018628:47018834:-@18:47018106:47018203:-@18:47017902:47017954:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: F_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/F_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample A_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans
+  - Looking for chromosome 9 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample H_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 9:70883850:70883894:+@9:70885218:70885301:+@9:70889798:70889854:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: A_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample A_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample H_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:99971667:99972056:+@7:99987511:99987729:+@7:99995502:99995535:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: A_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample A_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI not a directory.
+Error: Could not find MISO output files for sample D_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample D_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/D_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample B_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample G_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI not a directory.
+Error: Could not find MISO output files for sample H_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans
+  - Looking for chromosome 7 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample H_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/H_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 7:99971667:99972056:+@7:99987511:99987729:+@7:99995502:99995535:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: A_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample A_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample B_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans
+  - Looking for chromosome 6 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample G_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 6:36566626:36566760:+@6:36567598:36568053:+@6:36568929:36568967:+
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: A_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam
+/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event/
+Reading settings from: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/settings/sashimi_plot_settings.txt
+Parsing data:bam_prefix
+Parsing data:miso_prefix
+Parsing data:bam_files
+Parsing data:miso_files
+Parsing plotting:fig_width
+Parsing plotting:fig_height
+Parsing plotting:intron_scale
+Parsing plotting:exon_scale
+Parsing plotting:logged
+Parsing plotting:font_size
+Parsing plotting:bar_posteriors
+Parsing plotting:ymax
+Parsing plotting:nyticks
+Parsing plotting:nxticks
+Parsing plotting:show_ylabel
+Parsing plotting:show_xlabel
+Parsing plotting:show_posteriors
+Parsing plotting:number_junctions
+Parsing plotting:resolution
+Parsing plotting:posterior_bins
+Parsing plotting:gene_posterior_ratio
+Parsing plotting:colors
+Parsing plotting:coverages
+Parsing plotting:bar_color
+Parsing plotting:bf_thresholds
+miso_prefix: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI not a directory.
+Error: Could not find MISO output files for sample A_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample A_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/A_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI not a directory.
+Error: Could not find MISO output files for sample B_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample B_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/B_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI not a directory.
+Error: Could not find MISO output files for sample G_RPMI (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_RPMI and its subdirectories). Are you sure MISO output files are present in that directory?
+Searching for MISO files in: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans
+  - Looking for chromosome 14 directories
+Error: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans not a directory.
+Error: Could not find MISO output files for sample G_Candida_albicans (after searching in /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/SE/G_Candida_albicans and its subdirectories). Are you sure MISO output files are present in that directory?
+Reading dimensions from settings...
+ - Height: 5.00
+ - Width: 7.00
+Plotting read densities and MISO estimates along event...
+  - Event: 14:100842597:100842680:-@14:100841620:100841687:-@14:100835424:100835595:-
+Setting up plot using dimensions:  [7.0, 5.0]
+Using intron scale  30.0
+Using exon scale  4.0
+Reading sample label: A_RPMI.sorted.merged.dedup.bam
+Processing BAM: /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed/A_RPMI.sorted.merged.dedup.bam

@@ -1,0 +1,4 @@
+mv scriptName.started scriptName.finished
+
+trap - EXIT
+exit 0

@@ -1,0 +1,64 @@
+#!/bin/bash
+#SBATCH --job-name=jobName
+#SBATCH --output=jobOutput
+#SBATCH --error=jobErr
+#SBATCH --time=runTime
+#SBATCH --cpus-per-task cores
+#SBATCH --mem ram
+#SBATCH --open-mode=append
+#SBATCH --export=NONE
+#SBATCH --get-user-env=30L
+
+set -e 
+set -u
+
+declare jobScript="jobName"
+declare jobScriptSTDERR="jobOutput"
+declare jobScriptSTDOUT="jobErr"
+declare failedFile="molgenis.pipeline.failed"
+
+
+declare singleSeperatorLine=$(head -c 120 /dev/zero | tr '\0' '-')
+declare doubleSeperatorLine=$(head -c 120 /dev/zero | tr '\0' '=')
+
+function errorExitAndCleanUp() {
+        local signal=${1}
+        local problematicLine=${2}
+        local exitStatus=${3:-$?}
+        local executionHost=${SLURMD_NODENAME:-$(hostname)}
+        local errorMessage="FATAL: Trapped ${signal} signal in ${jobScript} running on ${executionHost}. Exit status code was ${exitStatus}."
+        if [ $signal == 'ERR' ]; then
+                local errorMessage="FATAL: Trapped ${signal} signal on line ${problematicLine} in ${jobScript} running on ${executionHost}. Exit status code was ${exitStatus}."
+        fi
+	local errorMessage=${4:-"${errorMessage}"} # Optionally use custom error message as third argument.
+        local format='INFO: Last 50 lines or less of %s:\n'
+        echo "${errorMessage}"
+        echo "${doubleSeperatorLine}"                > ${failedFile}
+        echo "${errorMessage}"                         >> ${failedFile}
+        if [ -f "${jobScriptSTDERR}" ]; then
+                echo "${singleSeperatorLine}"           >> ${failedFile}
+                printf "${format}" "${jobScriptSTDERR}" >> ${failedFile}
+                echo "${singleSeperatorLine}"           >> ${failedFile}
+                tail -50 "${jobScriptSTDERR}"           >> ${failedFile}
+        fi
+	if [ -f "${jobScriptSTDOUT}" ]; then
+                echo "${singleSeperatorLine}"           >> ${failedFile}
+                printf "${format}" "${jobScriptSTDOUT}" >> ${failedFile}
+                echo "${singleSeperatorLine}"           >> ${failedFile}
+                tail -50 "${jobScriptSTDOUT}"           >> ${failedFile}
+        fi
+        echo "${doubleSeperatorLine}"               >> ${failedFile}
+}
+
+
+trap 'errorExitAndCleanUp HUP  NA $?' HUP
+trap 'errorExitAndCleanUp INT  NA $?' INT
+trap 'errorExitAndCleanUp QUIT NA $?' QUIT
+trap 'errorExitAndCleanUp TERM NA $?' TERM
+trap 'errorExitAndCleanUp EXIT NA $?' EXIT
+trap 'errorExitAndCleanUp ERR  $LINENO $?' ERR
+
+
+#create .started file
+touch scriptName.started
+
