@@ -8,11 +8,10 @@ def main():
 
 def controller():
     timePoints=["4h","24h"]
-    for timePoint in len(timePoints):
-        time = timePoints[timePoint]
-        bayesTwenty = getEventByBayesFactor(time)
-        createOccurenceMatrix(bayesTwenty,time)
-        sortByMostExpressedEvent(bayesTwenty,time)
+    for timePoint in timePoints:
+        bayesTwenty = getEventByBayesFactor(timePoint)
+        createOccurenceMatrix(bayesTwenty,timePoint)
+        sortByMostExpressedEvent(bayesTwenty,timePoint)
 '''
 Gets all events between certain Bayes Factor thresholds.
 Returns a dictionary with event as key and all the stimuli in a list where the
@@ -24,7 +23,7 @@ def getEventByBayesFactor(time):
     for filteredFile in os.listdir(filteredLoc):
         with open(filteredLoc+filteredFile) as file:
             # retrieves the stimuli name from the filtered file
-            matcher = re.search('vs_(\w+)(?:-\d\w+)?', filteredFile)
+            matcher = re.search('vs_(\w+(?:-\d\w+)?)', filteredFile)
             stimuli = matcher.group(1)
             # first line is commented so skip
             next(file)
@@ -50,7 +49,8 @@ stimuli. It makes an initial array filled with 0's, these will be turned into
 '''
 def createOccurenceMatrix(bayesTwenty,time):
     listOfStimuli = initList()
-    output = open("sharedExons_"+time+".csv", "w")
+    test =0
+    output = open("sharedEvents_"+time+".csv", "w")
     output.write("eventName,"+",".join(listOfStimuli)+"\n")
     for event in bayesTwenty:
         # creates array filled with 0 with length of listOfStimuli
