@@ -2,8 +2,10 @@
 #generates the bash files for a MISO comparison
 
 #parameters
+#choose from SE,A3SS,A5SS,RI,MXE
+arrayOfModes=("A3SS" "A5SS" "RI" "MXE")
 bamLocation="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed"
-gff="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_se_event"
+gff="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_$mode\_events"
 gffLoc=`echo $gff | perl -pi -e 's|\/|\\\/|gs'`
 
 #checks if the folder runDir exists when not it creates it.
@@ -11,10 +13,9 @@ if [ ! -d ./runDir ]; then
         mkdir ./runDir
 fi
 
-
 #Iterator for amount of scripts generated
 i=0
-
+for mode in "${arrayOfModes[@]}"; do
 for bamFile in $bamLocation/*.bam; do
 	#declare fileNames
         fileName="s00_runMiso_$i.sh"
@@ -24,11 +25,11 @@ for bamFile in $bamLocation/*.bam; do
         bamFile=`echo $bamFile | perl -pi -e 's|\/|\\\/|gs'`
         stimuli=$(echo $bamFile | perl -n -e'/(\w{1}_(?:\w+)(?:-\d\w+)?)_/ && print $1')
         time=$(echo $bamFile | perl -n -e'/(\d+h)/ && print $1')
-        RPMI="../../miso_output/SE/$time/${stimuli:0:2}RPMI"
+        RPMI="../../miso_output/$mode/$time/${stimuli:0:2}RPMI"
         RPMIDir=`echo $RPMI | perl -pi -e 's|\/|\\\/|gs'`
 
 	#the output dir for runMiso
-	misoOutput="../../miso_output/SE/$time/"
+	misoOutput="../../miso_output/$mode/$time/"
         misoOutputDir=`echo $misoOutput | perl -pi -e 's|\/|\\\/|gs'`
 
 	#create runMiso script from header, script and footer
@@ -57,7 +58,7 @@ for bamFile in $bamLocation/*.bam; do
 	if [[ $bamFile != *"RPMI"* ]]; then
         	fileName="s01_compareMisoOutput_$i.sh"
                 stepName="s01_compareMisoOutput_$i"
-	        comparisonOutput="../../comparison_output/SE/$time/"
+	        comparisonOutput="../../comparison_output/$mode/$time/"
         	comparisonOutputDir=`echo $comparisonOutput | perl -pi -e 's|\/|\\\/|gs'`
 
 	        #create runMiso	script from header, script and footer
@@ -86,11 +87,11 @@ for bamFile in $bamLocation/*.bam; do
 		fileName="s02_filterMisoComparisonOutput_$i.sh"
 	        stepName="s02_filterMisoComparisonOutput_$i"
 
-		filterOutput="../../filtered_comparisons/SE/$time/"
+		filterOutput="../../filtered_comparisons/$mode/$time/"
 	        filterOutputDir=`echo $filterOutput | perl -pi -e 's|\/|\\\/|gs'`
 
 		comparisonFile=${stimuli:0:2}RPMI"_vs_"$stimuli
-                comparisonDir="../../comparison_output/SE/$time/$comparisonFile/bayes-factors/$comparisonFile.miso_bf"
+                comparisonDir="../../comparison_output/$mode/$time/$comparisonFile/bayes-factors/$comparisonFile.miso_bf"
 		comparisonOutputDir=`echo $comparisonDir | perl -pi -e 's|\/|\\\/|gs'`
 
                 #create filterComparisonOutputo script from header, script and footer
@@ -115,7 +116,7 @@ for bamFile in $bamLocation/*.bam; do
 	fi
 	i=`expr $i + 1`
 done
-
+done
 
 # creates a submit script in the rundir
 yes | cp -rf ./protocols/templates/submit.sh ./runDir/submit.sh
@@ -126,25 +127,22 @@ for bashscript in ./runDir/*.sh; do
 	bashBase=${bashscript##*/}
 	bashBase=${bashBase%.sh}
 
-	# checks first
 	if [[ $bashscript == *"s00"* ]]
 	then
-
-		cat ./protocols/submit_template.sh >> ./runDir/submit.sh
+		cat ./protocols/templates/submit_template.sh >> ./runDir/submit.sh
 		sed -i "s/scriptName/$bashBase/g" ./runDir/submit.sh
-		sed -i "s/Boolean/false/g" ./runDir/submit.sh
 	fi
 	if [[ $bashscript == *"s01"* ]]
 	then
 		run=$(echo $bashBase | perl -n -e'/_(\d+)/ && print $1')
-                cat ./protocols/submit_template_dependencies.sh >> ./runDir/submit.sh
+                cat ./protocols/templates/submit_template_dependencies.sh >> ./runDir/submit.sh
                 sed -i "s/scriptName/$bashBase/g" ./runDir/submit.sh
                 sed -i "s/InsertHere/s00_runMiso_$run/g" ./runDir/submit.sh
 	fi
 	if [[ $bashscript == *"s02"* ]]
 	then
                 run=$(echo $bashBase | perl -n -e'/_(\d+)/ && print $1')
-                cat ./protocols/submit_template_dependencies.sh >> ./runDir/submit.sh
+                cat ./protocols/templates/submit_template_dependencies.sh >> ./runDir/submit.sh
                 sed -i "s/scriptName/$bashBase/g" ./runDir/submit.sh
                 sed -i "s/InsertHere/s01_compareMisoOutput_$run/g" ./runDir/submit.sh
 	fi
