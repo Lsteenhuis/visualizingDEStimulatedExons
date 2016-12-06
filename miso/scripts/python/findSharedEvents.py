@@ -2,44 +2,81 @@
 import re
 import os
 import operator
+import sys
 
 def main():
     controller()
 
 def controller():
-    timePoints=["4h","24h"]
-    for timePoint in timePoints:
-        bayesTwenty = getEventByBayesFactor(timePoint)
-        createOccurenceMatrix(bayesTwenty,timePoint)
-        sortByMostExpressedEvent(bayesTwenty,timePoint)
+    timePoints=["24h"]#,"4h"]
+    for time in timePoints:
+        passedEvents = getEventByBayesFactor(time)
+        sortByMostExpressedEvent(passedEvents,time)
+        createMatrix(passedEvents,time, "occurence", 0)
+        createMatrix(passedEvents,time, "psi", 1)
+        createMatrix(passedEvents,time, "bf", 2)
 '''
 Gets all events between certain Bayes Factor thresholds.
 Returns a dictionary with event as key and all the stimuli in a list where the
 event has been found in as value.
 '''
 def getEventByBayesFactor(time):
-    bayesTwenty={}
+    passedEvents={}
+
+    # list containing eventList
+
     filteredLoc="../../filtered_comparisons/SE/"+time+"/"
     for filteredFile in os.listdir(filteredLoc):
         with open(filteredLoc+filteredFile) as file:
+
             # retrieves the stimuli name from the filtered file
             matcher = re.search('vs_(\w+(?:-\d\w+)?)', filteredFile)
             stimuli = matcher.group(1)
-            # first line is commented so skip
+            # Name of stimuli without volunteer letter
+            generalStimuli = stimuli[2:]
+            # first line is header so skip
             next(file)
             for exonInfo in file:
+                eventDict={}
+                # list containing the stimuli of a event
+                stimuliList=[]
+                # list containing event name + stimuliList
+                eventList=[]
+
                 exonInfoSplit = exonInfo.split("\t")
-                # exonInfoSplit[8] is the Bayes facor value.
-                # check if this value meets the threshold
-                if float(exonInfoSplit[8]) >= 20.00:
-                    # exonInfoSplit[0] = event name
-                    if exonInfoSplit[0] in bayesTwenty:
-                        bayesTwenty[exonInfoSplit[0]] = bayesTwenty[exonInfoSplit[0]] + [stimuli]
+                # exonInfoSplit[0] is the name of the event
+                eventName = exonInfoSplit[0]
+                # exonInfoSplit[7] is the delta PSI value
+                psiValue =float("%.2f" % float(exonInfoSplit[7]))
+                # exonInfoSplit[8] is the Bayes facor value
+                bfFactor = float("%.2f" % float(exonInfoSplit[8]))
+
+
+                #This code block creates a dictionary in a dictionary.
+                #Dicitonary A has generalStimuli as key and dictionary B as
+                #value. Dictionary B has event name as key and event information
+                # as value.
+
+                # check if these values meet the thresholds
+                #if bfFactor >= 5.00:
+                if psiValue >= 0.05 and bfFactor >= 5.00:
+                    # stimuli list contains the information of the current event
+                    stimuliList=[stimuli,format(psiValue,'.2f'), format(bfFactor,'.2f')]
+                    if generalStimuli in passedEvents:
+                        if eventName in passedEvents[generalStimuli]:
+                            if stimuli in passedEvents[generalStimuli][eventName]:
+                                continue
+                            else:
+                                passedEvents[generalStimuli][eventName] = passedEvents[generalStimuli][eventName] + [stimuliList]
+                        else:
+                            eventDict[eventName] = [stimuliList]
+                            passedEvents[generalStimuli].update(eventDict)
+                    #if generalStimuli is not in passedEvents it will be created with
                     else:
-                        bayesTwenty[exonInfoSplit[0]] = [stimuli]
+                        eventDict[eventName] = [stimuliList]
+                        passedEvents[generalStimuli] = eventDict
 
-
-    return bayesTwenty
+    return passedEvents
 
 '''
 Creates a .csv containing every event and shows in which stimuli they occur.
@@ -47,33 +84,49 @@ The first line of the .csv is the header containing eventName and the list of
 stimuli. It makes an initial array filled with 0's, these will be turned into
 1's at the positions of the stimuli in which they are expressed.
 '''
-def createOccurenceMatrix(bayesTwenty,time):
-    listOfStimuli = initList()
-    test =0
-    output = open("sharedEvents_"+time+".csv", "w")
-    output.write("eventName,"+",".join(listOfStimuli)+"\n")
-    for event in bayesTwenty:
-        # creates array filled with 0 with length of listOfStimuli
-        presentArray = [0] * len(listOfStimuli)
-        # sets the 0 at the position of stimuli to 1.
-        for stimuli in bayesTwenty[event]:
-            presentArray[listOfStimuli.index(stimuli)] = 1
-        # casts presentArray to a string so it can be writen to the output file
-        presentArrayString = ",".join(str(e) for e in presentArray)
-        output.write(event + "," +  presentArrayString + "\n")
+def createMatrix(passedEvents, time, outFile, value):
+    # creates array filled with 0 with length of listOfStimuli
+    letterArray=["A","B","C","D","E","F","G","H"]
+    # creates set for events that occur >= 4 times in a stimuli.
+    for stimuli in passedEvents:
+        stimuliList=[]
+        for i in range(len(letterArray)):
+            stimuliList.append(letterArray[i]+"_"+stimuli)
+        output = open("matrices/"+outFile+"Matrix_"+stimuli+"_"+time+".csv", "w")
+        output.write("eventName,"+",".join(stimuliList)+"\n")
+        for event in passedEvents[stimuli]:
+            if value == 0:
+                presentArray = [0] * 8
+            else:
+                presentArray = [0.00] * 8
+            if len(passedEvents[stimuli][event]) >= 4 :
+                for stim in passedEvents[stimuli][event]:
+                    #print stimuliList.index(stim[0])
+                    if value == 0:
+                        presentArray[stimuliList.index(stim[0])] = 1
+                    else:
+                        presentArray[stimuliList.index(stim[0])] = stim[value]
+
+                presentArrayString = ",".join(str(e) for e in presentArray)
+                output.write(event + "," +  presentArrayString + "\n")
+                # sets the 0 at the position of stimuli to 1.
+                # casts presentArray to a string so it can be writen to the output file
+        #output.close()
+
 
 '''
 Creates a sorted .csv with on every line the event name and amount of stimuli
 it is found in. sorted by descending.
 '''
-def sortByMostExpressedEvent(bayesTwenty,time):
-    output = open("sortedListByOccurence_"+time+".csv", "w")
-    # casts bayesTwenty to string and sorts by length of the lenght of the
-    # values of bayesTwenty, so by amount of total stimuli.
-    sortedByOccurence = ','.join(sorted(bayesTwenty, key=lambda k: len(bayesTwenty[k]), reverse=True))
-    sortedByOccurence = sortedByOccurence.split(",")
-    for event in sortedByOccurence:
-        output.write(event + "," + str(len(bayesTwenty[event])) + "\n")
+def sortByMostExpressedEvent(passedEvents,time):
+    output = open("matrices/sortedListByOccurence_"+time+".csv", "w")
+    # casts passedEvents to string and sorts by length of the lenght of the
+    # values of passedEvents, so by amount of total stimuli.
+    #sortedByOccurence = ','.join(sorted(passedEvents, key=lambda k: len(passedEvents[k]), reverse=True))
+    for stimuli in passedEvents:
+        for event in passedEvents[stimuli]:
+            if len(passedEvents[stimuli][event]) >= 4:
+                output.write(event + "\n")
 
 
 '''
