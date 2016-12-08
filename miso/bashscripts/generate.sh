@@ -5,8 +5,8 @@
 #choose from SE,A3SS,A5SS,RI,MXE
 arrayOfModes=("A3SS" "A5SS" "RI" "MXE")
 bamLocation="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/projects/variousStimuli/001/results/alignment/untrimmed"
-gff="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_$mode\_events"
-gffLoc=`echo $gff | perl -pi -e 's|\/|\\\/|gs'`
+#gff="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_$mode\_events"
+#gffLoc=`echo $gff | perl -pi -e 's|\/|\\\/|gs'`
 
 #checks if the folder runDir exists when not it creates it.
 if [ ! -d ./runDir ]; then
@@ -16,6 +16,8 @@ fi
 #Iterator for amount of scripts generated
 i=0
 for mode in "${arrayOfModes[@]}"; do
+gff="/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/indexed_$mode""_events"
+gffLoc=`echo $gff | perl -pi -e 's|\/|\\\/|gs'`
 for bamFile in $bamLocation/*.bam; do
 	#declare fileNames
         fileName="s00_runMiso_$i.sh"
@@ -29,58 +31,58 @@ for bamFile in $bamLocation/*.bam; do
         RPMIDir=`echo $RPMI | perl -pi -e 's|\/|\\\/|gs'`
 
 	#the output dir for runMiso
-	misoOutput="../../miso_output/$mode/$time/"
+	misoOutput="../../miso_output/$mode/$time/$stimuli"
         misoOutputDir=`echo $misoOutput | perl -pi -e 's|\/|\\\/|gs'`
 
 	#create runMiso script from header, script and footer
-	yes | cp -rf ./protocols/templates/header.txt ./runDir/$fileName
-	cat ./protocols/runMiso.sh >> ./runDir/$fileName
-	cat ./protocols/templates/footer.txt >> ./runDir/$fileName
+	#yes | cp -rf ./protocols/templates/header.txt ./runDir/$fileName
+	#cat ./protocols/runMiso.sh >> ./runDir/$fileName
+	#cat ./protocols/templates/footer.txt >> ./runDir/$fileName
 
 	#yes | cp -rf ./protocols/runMiso.sh ./runDir/$fileName
 
 	# changes header placeholder values to real values
-	sed -i "s/runTime/04:59:59/g" ./runDir/$fileName
-	sed -i "s/cores/4/g" ./runDir/$fileName
-	sed -i "s/ram/8gb/g" ./runDir/$fileName
-        sed -i "s/jobName/$stepName/g" ./runDir/$fileName
-        sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
-        sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
+	#sed -i "s/runTime/04:59:59/g" ./runDir/$fileName
+	#sed -i "s/cores/4/g" ./runDir/$fileName
+	#sed -i "s/ram/8gb/g" ./runDir/$fileName
+        #sed -i "s/jobName/$stepName/g" ./runDir/$fileName
+        #sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
+        #sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
 
 	# changes runMiso placeholder values to real values
-	sed -i "s/gff/$gffLoc/g" ./runDir/$fileName
-        sed -i "s/bamFileLocation/$bamFile/g" ./runDir/$fileName
-	sed -i "s/resultDir/$misoOutputDir/g" ./runDir/$fileName
-        sed -i "s/scriptName/$fileName/g" ./runDir/$fileName
+	#sed -i "s/gff/$gffLoc/g" ./runDir/$fileName
+        #sed -i "s/bamFileLocation/$bamFile/g" ./runDir/$fileName
+	#sed -i "s/resultDir/$misoOutputDir/g" ./runDir/$fileName
+        #sed -i "s/scriptName/$fileName/g" ./runDir/$fileName
 
 
 	# checks if bam file is a control sample, these do not have to be processed further.
 	if [[ $bamFile != *"RPMI"* ]]; then
-        	fileName="s01_compareMisoOutput_$i.sh"
-                stepName="s01_compareMisoOutput_$i"
-	        comparisonOutput="../../comparison_output/$mode/$time/"
-        	comparisonOutputDir=`echo $comparisonOutput | perl -pi -e 's|\/|\\\/|gs'`
+        	#fileName="s01_compareMisoOutput_$i.sh"
+                #stepName="s01_compareMisoOutput_$i"
+	        #comparisonOutput="../../comparison_output/$mode/$time/"
+        	#comparisonOutputDir=`echo $comparisonOutput | perl -pi -e 's|\/|\\\/|gs'`
 
 	        #create runMiso	script from header, script and footer
-                yes | cp -rf ./protocols/templates/header.txt ./runDir/$fileName
-	        cat ./protocols/compareMisoOutput.sh >> ./runDir/$fileName
-        	cat ./protocols/templates/footer.txt >> ./runDir/$fileName
+                #yes | cp -rf ./protocols/templates/header.txt ./runDir/$fileName
+	        #cat ./protocols/compareMisoOutput.sh >> ./runDir/$fileName
+        	#cat ./protocols/templates/footer.txt >> ./runDir/$fileName
 
                 #yes | cp -rf ./protocols/runMiso.sh ./runDir/$fileName
 
 	        # changes header placeholder values to real values
-                sed -i "s/runTime/04:59:59/g" ./runDir/$fileName
-	        sed -i "s/cores/4/g" ./runDir/$fileName
-        	sed -i "s/ram/8gb/g" ./runDir/$fileName
-                sed -i "s/jobName/$stepName/g" ./runDir/$fileName
-	        sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
-        	sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
+                #sed -i "s/runTime/04:59:59/g" ./runDir/$fileName
+	        #sed -i "s/cores/4/g" ./runDir/$fileName
+        	#sed -i "s/ram/8gb/g" ./runDir/$fileName
+                #sed -i "s/jobName/$stepName/g" ./runDir/$fileName
+	        #sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
+        	#sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
 
 		#changes compareMisoOutput placeholder values to real values
-       		sed -i "s/RPMI/$RPMIDir/g" ./runDir/$fileName
-                sed -i "s/stimuli/$misoOutputDir\/$stimuli/g" ./runDir/$fileName
-	        sed -i "s/comparisonOutput/$comparisonOutputDir/g" ./runDir/$fileName
-		sed -i "s/scriptName/$fileName/g" ./runDir/$fileName
+       		#sed -i "s/RPMI/$RPMIDir/g" ./runDir/$fileName
+                #sed -i "s/stimuli/$misoOutputDir/g" ./runDir/$fileName
+	        #sed -i "s/comparisonOutput/$comparisonOutputDir/g" ./runDir/$fileName
+		#sed -i "s/scriptName/$fileName/g" ./runDir/$fileName
 
 
 		# define variables to be used in filterComparisonOutput
@@ -136,7 +138,7 @@ for bashscript in ./runDir/*.sh; do
 	then
 		run=$(echo $bashBase | perl -n -e'/_(\d+)/ && print $1')
                 cat ./protocols/templates/submit_template_dependencies.sh >> ./runDir/submit.sh
-                sed -i "s/scriptName/$bashBase/g" ./runDir/submit.sh
+		sed -i "s/scriptName/$bashBase/g" ./runDir/submit.sh
                 sed -i "s/InsertHere/s00_runMiso_$run/g" ./runDir/submit.sh
 	fi
 	if [[ $bashscript == *"s02"* ]]
