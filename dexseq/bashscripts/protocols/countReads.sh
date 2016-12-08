@@ -7,5 +7,5 @@ python  /home/umcg-lsteenhuis/R/x86_64-unknown-linux-gnu-library/3.2/DEXSeq/pyth
 -f bam \
 gff \
 bamFileLocation \
-../../counted_files/baseName.counted.txt
+../../counted_files/baseName.txt
 
