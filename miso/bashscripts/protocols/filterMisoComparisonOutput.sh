@@ -14,6 +14,6 @@ python /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/python/lib/misopy/filter_even
 	--num-inc 1 \
 	--num-exc 1 \
 	--num-sum-inc-exc 10 \
-	--delta-psi 0.20 \
-	--bayes-factor 20 \
+	--delta-psi 0.05 \
+	--bayes-factor 5.0 \
 	--output-dir filterDir
