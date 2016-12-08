@@ -4,9 +4,11 @@
 library("DEXSeq")
 library("BiocParallel")
 BPPARAM = MulticoreParam(workers=4)
-flattenedFile = "../../gff/Hsap.GRCh37.75.gff"
-countFiles = list.files("../../counted_files/", pattern="stimuli_time", full.names = TRUE)
-RPMI = list.files("../../counted_files/", pattern="RPMI_time", full.names = TRUE)
+tmpdir <- Sys.getenv("TMPDIR")
+
+flattenedFile = "tmpdir/Hsap.GRCh37.75.gff"
+countFiles = list.files("tmpdir/", pattern="stimuli_time", full.names = TRUE)
+RPMI = list.files("tmpdir/", pattern="RPMI_time", full.names = TRUE)
 countFiles <- append(countFiles, RPMI)
 
 sampleTable = data.frame(
@@ -15,7 +17,7 @@ sampleTable = data.frame(
 
   condition = c(stimCon,
                 rpmiCon),
-  
+
   libType = c("single-end"))
 
 suppressPackageStartupMessages( library( "DEXSeq" ) )
