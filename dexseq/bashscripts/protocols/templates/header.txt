@@ -60,5 +60,5 @@ trap 'errorExitAndCleanUp ERR  $LINENO $?' ERR
 
 
 #create .started file
-touch scriptName.started
+touch jobName.started
 

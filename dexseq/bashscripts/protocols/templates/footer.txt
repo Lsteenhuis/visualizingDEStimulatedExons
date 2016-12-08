@@ -1,4 +1,4 @@
-mv scriptName.started scriptName.finished
+mv jobName.started jobName.finished
 
 trap - EXIT
 exit 0
