@@ -51,12 +51,11 @@ done
 i=`expr $i - 16`
 for time in "${timeArray[@]}"; do
        for stimuli in "${stimuliArray[@]}"; do
-		echo $i
                 #currentStimuli = $stimuli$timePoint
                 fileName="s01_runDEXSEQ_$i.sh"
                 stepName="s01_runDEXSEQ_$i"
 		stimCount=0
-		rpmiCount=0 
+		rpmiCount=0
 
 		stimuliVector=
 		rpmiVector=
@@ -78,21 +77,21 @@ for time in "${timeArray[@]}"; do
 			stimConVector="$stimConVector, \"$stimuli\_$time\""
 
 		done
-		for x in $(seq 1 $rpmiCount); do 
+		for x in $(seq 1 $rpmiCount); do
 			rpmiConVector="$rpmiConVector, \"RPMI_$time\""
 
 		done
-		
+
 		stimuliVector=${stimuliVector%?}
 		rpmiVector=${rpmiVector%?}
 		stimConVector=${stimConVector%?}
 		rpmiConVector=${rpmiConVector%?}
-		
+
                 yes | cp -rf ./protocols/templates/dexseq_base.R ./runDir/dexseq\_$stimuli\_$time.R
                 sed -i "s/stimuli/$stimuli/g" ./runDir/dexseq\_$stimuli\_$time.R
                 sed -i "s/time/$time/g" ./runDir/dexseq\_$stimuli\_$time.R
 		sed -i "s/vectorS/\"${stimuliVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
-		sed -i "s/vectorR/\"${rpmiVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R 
+		sed -i "s/vectorR/\"${rpmiVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
 		sed -i "s/stimCon/\"${stimConVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
 		sed -i "s/rpmiCon/\"${rpmiConVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
 
@@ -106,7 +105,7 @@ for time in "${timeArray[@]}"; do
                 sed -i "s/jobName/$stepName/g" ./runDir/$fileName
                 sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
                 sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
-		
+
 		sed -i "s/stimuliscript/\/groups\/umcg-wijmenga\/tmp04\/umcg-lsteenhuis\/DEXSEQ\/bashscripts\/runDir\/dexseq\_$stimuli\_$time.R/g" ./runDir/$fileName
                 i=`expr $i + 1`
         done
