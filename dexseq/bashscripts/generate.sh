@@ -86,14 +86,16 @@ for time in "${timeArray[@]}"; do
 		rpmiVector=${rpmiVector%?}
 		stimConVector=${stimConVector%?}
 		rpmiConVector=${rpmiConVector%?}
+                rscript="./runDir/dexseq_$stimuli"_"$time.R"
+                rscriptLoc=`echo $gff | perl -pi -e 's|\/|\\\/|gs'`
 
-                yes | cp -rf ./protocols/templates/dexseq_base.R ./runDir/dexseq\_$stimuli\_$time.R
-                sed -i "s/stimuli/$stimuli/g" ./runDir/dexseq\_$stimuli\_$time.R
-                sed -i "s/time/$time/g" ./runDir/dexseq\_$stimuli\_$time.R
-		sed -i "s/vectorS/\"${stimuliVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
-		sed -i "s/vectorR/\"${rpmiVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
-		sed -i "s/stimCon/\"${stimConVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
-		sed -i "s/rpmiCon/\"${rpmiConVector:3}\"/g" ./runDir/dexseq\_$stimuli\_$time.R
+                yes | cp -rf ./protocols/templates/dexseq_base.R $rscript
+                sed -i "s/stimuli/$stimuli/g" $rscript
+                sed -i "s/time/$time/g" $rscript
+		sed -i "s/vectorS/\"${stimuliVector:3}\"/g" $rscript
+		sed -i "s/vectorR/\"${rpmiVector:3}\"/g" $rscript
+		sed -i "s/stimCon/\"${stimConVector:3}\"/g" $rscript
+		sed -i "s/rpmiCon/\"${rpmiConVector:3}\"/g" $rscript
 
                 yes | cp -rf ./protocols/templates/header.txt ./runDir/$fileName
                 cat ./protocols/runDexSeq.sh >> ./runDir/$fileName
@@ -106,7 +108,9 @@ for time in "${timeArray[@]}"; do
                 sed -i "s/jobOutput/$stepName.out/g" ./runDir/$fileName
                 sed -i "s/jobErr/$stepName.err/g" ./runDir/$fileName
 
-		sed -i "s/stimuliscript/\/groups\/umcg-wijmenga\/tmp04\/umcg-lsteenhuis\/DEXSEQ\/bashscripts\/runDir\/dexseq\_$stimuli\_$time.R/g" ./runDir/$fileName
+		sed -i "s/stimuliscript/.\/dexseq_$stimuli""_""$time.R/g" ./runDir/$fileName
+                sed -i "s/countfiles/\*_$stimuli\_$time.txt/g" ./runDir/$fileName
+                sed -i "s/rpmifiles/\*_RPMI\_$time.txt/g" ./runDir/$fileName
                 i=`expr $i + 1`
         done
 done
