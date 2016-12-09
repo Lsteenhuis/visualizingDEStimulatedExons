@@ -6,9 +6,7 @@ BPPARAM = MulticoreParam(workers=4)
 
 tmpdir <- Sys.getenv("TMPDIR")
 flattenedFile <- list.files(tmpdir, pattern="gff$", full.names = TRUE)
-countFiles = list.files(tmpdir, pattern="Aspergillus_fumigatus_4h", full.names = TRUE)
-RPMI = list.files(tmpdir, pattern="RPMI_4h", full.names = TRUE)
-countFiles <- append(countFiles, RPMI)
+countFiles = list.files(tmpdir, pattern="txt$", full.names = TRUE)
 
 sampleTable = data.frame(
   row.names = c(vectorS,
