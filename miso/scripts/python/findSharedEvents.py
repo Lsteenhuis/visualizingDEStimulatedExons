@@ -8,24 +8,27 @@ def main():
     controller()
 
 def controller():
-    timePoints=["24h"]#,"4h"]
-    for time in timePoints:
-        passedEvents = getEventByBayesFactor(time)
-        sortByMostExpressedEvent(passedEvents,time)
-        createMatrix(passedEvents,time, "occurence", 0)
-        createMatrix(passedEvents,time, "psi", 1)
-        createMatrix(passedEvents,time, "bf", 2)
+    #modes=["SE"]
+    modes=["A3SS","A5SS","SE","MXE","RI"]
+    timePoints=["24h","4h"]
+    for mode in modes:
+        for time in timePoints:
+            passedEvents = getEventByBayesFactor(time,mode)
+            sortByMostExpressedEvent(passedEvents,time,mode)
+            #createMatrix(passedEvents,time, "occurence", 0, mode)
+            #createMatrix(passedEvents,time, "psi", 1, mode)
+            #createMatrix(passedEvents,time, "bf", 2, mode)
 '''
 Gets all events between certain Bayes Factor thresholds.
 Returns a dictionary with event as key and all the stimuli in a list where the
 event has been found in as value.
 '''
-def getEventByBayesFactor(time):
+def getEventByBayesFactor(time,mode):
     passedEvents={}
 
     # list containing eventList
 
-    filteredLoc="../../filtered_comparisons/SE/"+time+"/"
+    filteredLoc="../../filtered_comparisons/"+mode+"/"+time+"/"
     for filteredFile in os.listdir(filteredLoc):
         with open(filteredLoc+filteredFile) as file:
 
@@ -59,23 +62,23 @@ def getEventByBayesFactor(time):
 
                 # check if these values meet the thresholds
                 #if bfFactor >= 5.00:
-                if psiValue >= 0.05 and bfFactor >= 5.00:
-                    # stimuli list contains the information of the current event
-                    stimuliList=[stimuli,format(psiValue,'.2f'), format(bfFactor,'.2f')]
-                    if generalStimuli in passedEvents:
-                        if eventName in passedEvents[generalStimuli]:
-                            if stimuli in passedEvents[generalStimuli][eventName]:
-                                continue
-                            else:
-                                passedEvents[generalStimuli][eventName] = passedEvents[generalStimuli][eventName] + [stimuliList]
+                #if psiValue >= 0.05 and bfFactor >= 5.00:
+                # stimuli list contains the information of the current event
+                stimuliList=[stimuli,format(psiValue,'.2f'), format(bfFactor,'.2f')]
+                if generalStimuli in passedEvents:
+                    if eventName in passedEvents[generalStimuli]:
+                        if stimuli in passedEvents[generalStimuli][eventName]:
+                            continue
                         else:
-                            eventDict[eventName] = [stimuliList]
-                            passedEvents[generalStimuli].update(eventDict)
-                    #if generalStimuli is not in passedEvents it will be created with
+                            passedEvents[generalStimuli][eventName] = passedEvents[generalStimuli][eventName] + [stimuliList]
                     else:
                         eventDict[eventName] = [stimuliList]
-                        passedEvents[generalStimuli] = eventDict
-
+                        passedEvents[generalStimuli].update(eventDict)
+                #if generalStimuli is not in passedEvents it will be created with
+                else:
+                    eventDict[eventName] = [stimuliList]
+                    passedEvents[generalStimuli] = eventDict
+ 
     return passedEvents
 
 '''
@@ -84,7 +87,7 @@ The first line of the .csv is the header containing eventName and the list of
 stimuli. It makes an initial array filled with 0's, these will be turned into
 1's at the positions of the stimuli in which they are expressed.
 '''
-def createMatrix(passedEvents, time, outFile, value):
+def createMatrix(passedEvents, time, outFile, value,mode):
     # creates array filled with 0 with length of listOfStimuli
     letterArray=["A","B","C","D","E","F","G","H"]
     # creates set for events that occur >= 4 times in a stimuli.
@@ -92,8 +95,12 @@ def createMatrix(passedEvents, time, outFile, value):
         stimuliList=[]
         for i in range(len(letterArray)):
             stimuliList.append(letterArray[i]+"_"+stimuli)
-        output = open("matrices/"+outFile+"Matrix_"+stimuli+"_"+time+".csv", "w")
-        output.write("eventName,"+",".join(stimuliList)+"\n")
+	outputFile="../../matrices/" + outFile + "/" + stimuli + "_" + time + "_" + outFile +"_Matrix.tsv"
+	if not os.path.isfile(outputFile):
+	    output = open(outputFile, "a")
+            output.write("StimuliName\tEventType\tEventName\tEnsemblId\tGeneName\t"+"\t".join(stimuliList)+"\n")
+	else:
+            output = open(outputFile, "a")
         for event in passedEvents[stimuli]:
             if value == 0:
                 presentArray = [0] * 8
@@ -106,27 +113,31 @@ def createMatrix(passedEvents, time, outFile, value):
                         presentArray[stimuliList.index(stim[0])] = 1
                     else:
                         presentArray[stimuliList.index(stim[0])] = stim[value]
-
-                presentArrayString = ",".join(str(e) for e in presentArray)
-                output.write(event + "," +  presentArrayString + "\n")
+		
+		#presentArray.insert(0,mode)
+		presentArrayString = "\t".join(str(e) for e in presentArray)
+                output.write(event + "\t" +  presentArrayString + "\n")
                 # sets the 0 at the position of stimuli to 1.
                 # casts presentArray to a string so it can be writen to the output file
-        #output.close()
+        output.close()
+    stimuliCount=0
 
 
 '''
 Creates a sorted .csv with on every line the event name and amount of stimuli
 it is found in. sorted by descending.
 '''
-def sortByMostExpressedEvent(passedEvents,time):
-    output = open("matrices/sortedListByOccurence_"+time+".csv", "w")
+def sortByMostExpressedEvent(passedEvents,time,mode):
+    #output = open("matrices/occurences/_"+mode+"_"+time+".csv", "w")
     # casts passedEvents to string and sorts by length of the lenght of the
     # values of passedEvents, so by amount of total stimuli.
     #sortedByOccurence = ','.join(sorted(passedEvents, key=lambda k: len(passedEvents[k]), reverse=True))
     for stimuli in passedEvents:
-        for event in passedEvents[stimuli]:
+	output = open("../../matrices/eventNames/"+ mode + "_" + stimuli + "_" + time + ".txt", "w")
+	for event in passedEvents[stimuli]:
             if len(passedEvents[stimuli][event]) >= 4:
                 output.write(event + "\n")
+	output.close()
 
 
 '''
