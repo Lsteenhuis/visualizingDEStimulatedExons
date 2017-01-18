@@ -1,7 +1,10 @@
 df.4h.all <- data.frame(A3SS=rep(0, 8),A5SS=rep(0, 8),SE=rep(0, 8),MXE=rep(0, 8),RI=rep(0, 8))
 df.24h.all <- data.frame(A3SS=rep(0,8),A5SS=rep(0, 8),SE=rep(0, 8),MXE=rep(0, 8),RI=rep(0, 8))
-rownames(df.4h.all) <- c("asp","bor", "can", "IL" ,"myc", "pse", "rhi", "stre")
-rownames(df.24h.all) <- c("asp","bor", "can", "IL", "myc", "pse", "rhi", "stre")
+colName <-  c("Aspergillus_fumigatus","Borrelia_burgdorferi", "Candida_albicans", "IL-1alpha" ,
+              "Mycobacterium_tuberculosis", "Pseudomonas_aeruginosa", "Rhizopus_oryzae", 
+              "Streptococcus_pneumoniae")
+rownames(df.4h.all) <- colName
+rownames(df.24h.all) <- colName
 misoFiles.4h <- list.files("~/miso/matrices/stimuli_events/",
                         pattern="_4h*", full.names = T)
 misoFiles.24h <- list.files("~/miso/matrices/stimuli_events/",
@@ -45,24 +48,38 @@ df.24h.all[6,] <- countRow[[6]]
 df.24h.all[7,] <- countRow[[7]]
 df.24h.all[8,] <- countRow[[8]]
 
-par(mfrow=c(1,2))
+par(mfrow=c(1,1))
+par(las=2)
+heatcols <- c("#FF0000FF", "#FF4000FF", "#FF8000FF", "#FFBF00FF", "#FFFF00FF", "#FFFF80FF")
+par(mfrow=c(1,1),las=1,cex.axis=0.37)
+axis(2,cex.axis=0.75)
+
 barplot(as.matrix(t(df.4h.all)), 
         horiz = T,
         col = c("brown1","coral","deepskyblue","darkred","gray0"),
         xlab = "Amount of found splicing variant sites",
-        ylab = "Stimuli",
-        main = "Found splicing variants at 4 hours")
-
+        ylab = "",
+        main = "Miso 4 hours",
+        cex.axis = 1 ,
+        cex.names = 0.4 ,
+       beside = T)
+title(ylab="Stimuli", line=0, cex.lab=1)
 legend('bottomright','groups', c("A3SS","A5SS","SE","RI", "MXE"), lty = c(1), lwd = c(2),
        col = c("brown1","coral","deepskyblue","darkred","gray0"), ncol=5, bty = "o")
+
 
 barplot(as.matrix(t(df.24h.all)), 
         horiz = T,
         col = c("brown1","coral","deepskyblue","darkred","gray0"),
         xlab = "splicing variant sites",
-        ylab = "Stimuli",
-        main = "Found splicing variants at 24 hours"
+        ylab = "",
+        main = "miso 24 hours",
+        cex.axis = 1 ,
+        cex.names = 0.3 ,
+        beside = T
         )
-legend('bottomright','groups', c("A3SS","A5SS","SE","RI", "MXE"), lty = c(1), lwd = c(2),
-       col = c("brown1","coral","deepskyblue","darkred","gray0"), ncol=5, bty = "o")
+title(ylab="Stimuli", line=0, cex.lab=1)
+legend('bottomright','groups', c("A3SS ","A5SS ","SE ","MXE ", "RI "), 
+        ncol=5, bty = "o",
+       fill=c("brown1","coral","deepskyblue","darkred","gray0"))
 
