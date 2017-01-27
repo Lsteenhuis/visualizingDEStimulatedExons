@@ -12,12 +12,14 @@ eventFile=$1
 
 
 while read eventLine; do
-	IFS=';' read -ra ADDR <<< "$eventLine"
+	IFS='        ' read -ra ADDR <<< "$eventLine"
 		numberOfStimuli=0
-		mode=${ADDR[0]}
-		time=${ADDR[1]}
-		stimuli=${ADDR[2]}
-		event=${ADDR[3]}
+		#secho $ADDR
+		mode=${ADDR[1]}
+		time=${ADDR[3]}
+		event=${ADDR[0]}
+		stimuliList=${ADDR[3]}
+		echo $event
 		#echo $event
 		#load the file in array stimuliList
 		bamFiles="["
@@ -25,50 +27,50 @@ while read eventLine; do
 		readCounts="["
 		colourList="["
 
-		for letter in "${letterArray[@]}"; do
-			numberOfStimuli=`expr $numberOfStimuli + 2`
-			bamFiles="$bamFiles\"$letter\_$stimuli\_$time.sorted.merged.dedup.bam\","
-			readCount=$(echo `grep "$letter\_$stimuli\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}')
-			readCounts="$readCounts\"$readCount\","
-
-			bamFiles="$bamFiles\"$letter\_RPMI\_$time.sorted.merged.dedup.bam\","
-			readCount="$(echo `grep "$letter\_RPMI\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}')"
-			readCounts="$readCounts\"$readCount\","
-
-
-			#echo `grep "$letter\_RPMI\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}'
-			misoFiles="$misoFiles\"$letter\_$stimuli\","
-			misoFiles="$misoFiles\"$letter\_RPMI\","
-		done
-
-		end=$numberOfStimuli
-		for i in $(seq 1 $numberOfStimuli); do
-			index=$((i-1 % numberOfStimuli))
-			colourList="$colourList\"${colourTable[$index]}\","
-		done
-
-		#replace the last character (,) with an ]
-		bamFiles="${bamFiles%?}]"
-		misoFiles="${misoFiles%?}]"
-		readCounts="${readCounts%?}]"
-		colourList="${colourList%?}]"
-		echo $readCounts
-		#echo $colourList
-		sed -i "s/mode/$mode/g" $sashimiSettings
-		sed -i "s/bam_files\=/bam_files\=$bamFiles/g" $sashimiSettings
-		sed -i "s/miso_files\=/miso_files\=$misoFiles/g" $sashimiSettings
-		sed -i "s/coverages\=/coverages\=$readCounts/g" $sashimiSettings
-		sed -i "s/colors\=/colors\=$colourList/g" $sashimiSettings
-		sed -i "s/time/$time\//g" $sashimiSettings
-
-		geneNameEvent=$(echo `grep "$event.*ensg_id=" /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/hg19/$mode.hg19.gff3` | perl -n -e'/ensg_id=(.*);g/ && print $1')
-		#echo "plotting $stimuli $geneNameEvent $mode"
-		bash /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/bashscripts/protocols/sashimi.sh $event $geneNameEvent $time $stimuli $mode
-		#sleep 20
-		#echo "test"
-	        sed -i "s/bam_files\=.*/bam_files\=/g" $sashimiSettings
-	        sed -i "s/miso_files\=.*/miso_files\=/g" $sashimiSettings
-	        sed -i "s/coverages\=.*/coverages\=/g" $sashimiSettings
-	        sed -i "s/colors\=.*/colors\=/g" $sashimiSettings
-		#sed -i "s/miso_prefix\=.*/miso_prefix=/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/mode/time/g $sashimiSettings"
+# 		for letter in "${letterArray[@]}"; do
+# 			numberOfStimuli=`expr $numberOfStimuli + 2`
+# 			bamFiles="$bamFiles\"$letter\_$stimuli\_$time.sorted.merged.dedup.bam\","
+# 			readCount=$(echo `grep "$letter\_$stimuli\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}')
+# 			readCounts="$readCounts\"$readCount\","
+#
+# 			bamFiles="$bamFiles\"$letter\_RPMI\_$time.sorted.merged.dedup.bam\","
+# 			readCount="$(echo `grep "$letter\_RPMI\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}')"
+# 			readCounts="$readCounts\"$readCount\","
+#
+#
+# 			#echo `grep "$letter\_RPMI\_$time" $mappedReadCounts` | awk 'BEGIN {FS=";"} {print $1}'
+# 			misoFiles="$misoFiles\"$letter\_$stimuli\","
+# 			misoFiles="$misoFiles\"$letter\_RPMI\","
+# 		done
+#
+# 		end=$numberOfStimuli
+# 		for i in $(seq 1 $numberOfStimuli); do
+# 			index=$((i-1 % numberOfStimuli))
+# 			colourList="$colourList\"${colourTable[$index]}\","
+# 		done
+#
+# 		#replace the last character (,) with an ]
+# 		bamFiles="${bamFiles%?}]"
+# 		misoFiles="${misoFiles%?}]"
+# 		readCounts="${readCounts%?}]"
+# 		colourList="${colourList%?}]"
+# 		echo $readCounts
+# 		#echo $colourList
+# 		sed -i "s/mode/$mode/g" $sashimiSettings
+# 		sed -i "s/bam_files\=/bam_files\=$bamFiles/g" $sashimiSettings
+# 		sed -i "s/miso_files\=/miso_files\=$misoFiles/g" $sashimiSettings
+# 		sed -i "s/coverages\=/coverages\=$readCounts/g" $sashimiSettings
+# 		sed -i "s/colors\=/colors\=$colourList/g" $sashimiSettings
+# 		sed -i "s/time/$time\//g" $sashimiSettings
+#
+# 		geneNameEvent=$(echo `grep "$event.*ensg_id=" /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/alternative_events/hg19/$mode.hg19.gff3` | perl -n -e'/ensg_id=(.*);g/ && print $1')
+# 		#echo "plotting $stimuli $geneNameEvent $mode"
+# 		bash /groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/bashscripts/protocols/sashimi.sh $event $geneNameEvent $time $stimuli $mode
+# 		#sleep 20
+# 		#echo "test"
+# 	        sed -i "s/bam_files\=.*/bam_files\=/g" $sashimiSettings
+# 	        sed -i "s/miso_files\=.*/miso_files\=/g" $sashimiSettings
+# 	        sed -i "s/coverages\=.*/coverages\=/g" $sashimiSettings
+# 	        sed -i "s/colors\=.*/colors\=/g" $sashimiSettings
+# 		#sed -i "s/miso_prefix\=.*/miso_prefix=/groups/umcg-wijmenga/tmp04/umcg-lsteenhuis/miso/miso_output/mode/time/g $sashimiSettings"
 done<$eventFile
