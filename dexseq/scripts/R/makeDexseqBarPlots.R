@@ -1,3 +1,4 @@
+# paths to folders containing restult files
 dexFiles.4h <- list.files("/Users/larssteenhuis/DEXSEQ/matrices/", pattern = "\\.4h.matrix$", full.names = T)
 dexFiles.24h <- list.files("/Users/larssteenhuis/DEXSEQ/matrices/", pattern = "\\.24h.matrix$", full.names = T)
 stimuliNames <- c("Aspergillus_fumigatus","Borrelia_burgdorferi","Candida_albicans",
@@ -5,6 +6,7 @@ stimuliNames <- c("Aspergillus_fumigatus","Borrelia_burgdorferi","Candida_albica
                   ,"Rhizopus_oryzae","Streptococcus_pneumoniae")
 
 
+# counts how many hits are in the 4h restult file
 countRows <- lapply(dexFiles.4h, function(x){
   file <- read.table(x,header = T, stringsAsFactors = F)
   nrow(file)
@@ -12,20 +14,20 @@ countRows <- lapply(dexFiles.4h, function(x){
 transposedRows.4h <- as.matrix(t(countRows))
 colnames(transposedRows.4h) <-  stimuliNames
 
-
-
-
-barplot(table(bla), las = 2)
+# counts how many hits are in the 24h files
 countRows <- lapply(dexFiles.24h, function(x){
   file <- read.table(x,header = T, stringsAsFactors = F)
   nrow(file)
 })
+
+# transposes matrcices
 transposedRows.24h <- as.matrix(t(countRows))
 colnames(transposedRows.24h) <-  stimuliNames
 
 
 par(mfrow=c(1,1),las=2)
 
+#create barplots
 barplot(transposedRows.4h, main = "DEXSEQ 4h padj < 0.05",
         xlab = "",
         ylab = "DE exons",

@@ -31,21 +31,23 @@ listOfoccurence=lapply(files, function(file) {
   content=read.table(file,stringsAsFactors = F,sep="\t",header = T)
   stimulus <- substr(file,38,nchar(file)-11)
   pathways=data.frame(content[3])
+  # vector for positioning of pathways
   line <- rep(0,length(colNames))
   # retrieve list of indexes of which pathways are found in the result
-  b <- lapply(unlist(pathways), function(pathway){
+  listOfPathways <- lapply(unlist(pathways), function(pathway){
     which(pathway == colnames(tmp.df))
   })
-  line[b$pathway1] <- 1
-  line[b$pathway2] <- 1
-  line[b$pathway3] <- 1
-  line[b$pathway4] <- 1
-  line[b$pathway5] <- 1
-  line[b$pathway6] <- 1
-  line[b$pathway7] <- 1
-  line[b$pathway8] <- 1
-  line[b$pathway9] <- 1
-  line[b$pathway10] <- 1
+  # sets line to one at the locations of the pathways
+  line[listOfPathways$pathway1] <- 1
+  line[listOfPathways$pathway2] <- 1
+  line[listOfPathways$pathway3] <- 1
+  line[listOfPathways$pathway4] <- 1
+  line[listOfPathways$pathway5] <- 1
+  line[listOfPathways$pathway6] <- 1
+  line[listOfPathways$pathway7] <- 1
+  line[listOfPathways$pathway8] <- 1
+  line[listOfPathways$pathway9] <- 1
+  line[listOfPathways$pathway10] <- 1
   tmp.df[stimulus,] <- line
 
 })
@@ -54,10 +56,10 @@ listOfoccurence=lapply(files, function(file) {
 occurence.df <- t(as.data.frame(listOfoccurence))
 colnames(occurence.df) <- colNames
 rownames(occurence.df) <- rowNames
-
-test <- occurence.df[,colSums(occurence.df) > 0]
+#  paramter to set value for amount of pathways
+occurence.colSums.df <- occurence.df[,colSums(occurence.df) > 0]
 ##### ... ####
 
 #plot heatmap
-pheatmap(t(test),scale="none", fontsize = 8, cluster_rows = T, cluster_cols = T, main = time,
+pheatmap(t(occurence.colSums.df),scale="none", fontsize = 8, cluster_rows = T, cluster_cols = T, main = time,
          cellwidth = 8, cellheight= 6.5)
