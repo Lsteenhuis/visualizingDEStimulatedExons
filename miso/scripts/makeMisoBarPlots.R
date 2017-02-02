@@ -10,6 +10,8 @@ misoFiles.4h <- list.files("~/miso/matrices/stimuli_events/",
 misoFiles.24h <- list.files("~/miso/matrices/stimuli_events/",
                            pattern="_24h*", full.names = T)
 
+
+#counts amount of events per stimuli for 4h.
 countRow <- lapply(misoFiles.4h, function(x){
   file <- read.table(x, header = T ,stringsAsFactors = F)
   events <- file[,2]
@@ -29,7 +31,7 @@ df.4h.all[7,] <- countRow[[7]]
 df.4h.all[8,] <- countRow[[8]]
 
 
-
+#counts amount of events per stimuli for 24h.
 countRow <- lapply(misoFiles.24h, function(x){
   file <- read.table(x, header = T ,stringsAsFactors = F)
   events <- file[,2]
@@ -48,12 +50,12 @@ df.24h.all[6,] <- countRow[[6]]
 df.24h.all[7,] <- countRow[[7]]
 df.24h.all[8,] <- countRow[[8]]
 
-par(mfrow=c(1,1))
-par(las=2)
+#plotting logic
 heatcols <- c("#FF0000FF", "#FF4000FF", "#FF8000FF", "#FFBF00FF", "#FFFF00FF", "#FFFF80FF")
 par(mfrow=c(1,1),las=1,cex.axis=0.37)
 axis(2,cex.axis=0.75)
 
+#plotting
 barplot(as.matrix(t(df.4h.all)), 
         horiz = T,
         col = c("brown1","coral","deepskyblue","darkred","gray0"),
