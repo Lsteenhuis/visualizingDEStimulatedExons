@@ -1,6 +1,6 @@
 time <- "4h & 24h"
 pat <- paste("tab", sep="")
-files <- list.files("/Users/larssteenhuis/miso/cpdb/top10", pattern = pat, full.names = T)
+files <- list.files("/Users/larssteenhuis/DEXSEQ/cpdb/top10", pattern = pat, full.names = T)
 
 # retrieves names of the pathway as column names
 colName <- lapply(files, function(x){
@@ -29,7 +29,7 @@ rownames(tmp.df) <- rowNames
 ##### Creation of heatmap df ####
 listOfoccurence=lapply(files, function(file) {
   content=read.table(file,stringsAsFactors = F,sep="\t",header = T)
-  stimulus <- substr(file,39,42)
+  stimulus <- substr(file,38,nchar(file)-11)
   pathways=data.frame(content[3])
   line <- rep(0,length(colNames))
   # retrieve list of indexes of which pathways are found in the result
