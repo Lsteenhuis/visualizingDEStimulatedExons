@@ -1,11 +1,13 @@
+    # path to biomart file containing gene ID's
     geneIDS <- read.delim("~/DEXSEQ/biomart_file/mart_export-5.txt")
+    # path to result files
     files <- list.files("/Users/larssteenhuis/DEXSEQ/dexseq_results/24h", pattern = ".results", full.names = T)
     lapply(files, function(x){
       # retrieves stimuli name from file path
-      
       stimuli <- substr(x,47,nchar(x)-12)
-      print(stimuli)
+      # make path for dexseq matrix file
       matrixFile <- paste("DEXSEQ/matrices/counts/",stimuli,".24h.matrix", sep = "")
+      # beware deletes files if they already exist
       if (file.exists(matrixFile)){
        file.remove(matrixFile)
       }
@@ -37,19 +39,9 @@
         
         #print(dxr.noNa$countData[dxr$groupID == groupId])
         # retrieves gene name based on ensmbl id from genmart file
-
         geneName <- as.character(geneIDS$Associated.Gene.Name[geneIDS$Ensembl.Gene.ID == groupId])
-        if (!countRPMI < 100 && countStimulus <100) {
-          if(countRPMI * 2 < countStimulus){
-          rowToFile <- paste(groupId,featureID, geneName,pvalue,padjvalue, logFold, sep = "\t")
-          write(rowToFile,matrixFile, sep = "", append = T)
-        } else if (countStimulus * 2 < countRPMI){
-          rowToFile <- paste(groupId,featureID, geneName,pvalue,padjvalue, logFold, sep = "\t")
-          write(rowToFile,matrixFile, sep = "", append = T)
-        } else {
-          
-        }}
-        
-      })
-      
+        # prints gene id, exon id, gene name , p value , p adjust  and logfold to file
+        rowToFile <- paste(groupId,featureID, geneName,pvalue,padjvalue, logFold, sep = "\t")
+        write(rowToFile,matrixFile, sep = "", append = T)
+        })
     })
